@@ -2,4 +2,6 @@ version: "v1beta1"
 plugins:
   - name: "csharp"
     out: "src"
-    strategy: "all"
+  - name: "grpc_csharp_plugin"
+    out: "src"
+    path: "grpc_csharp_plugin"

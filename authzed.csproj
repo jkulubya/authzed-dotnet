@@ -1,10 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>jkulubya.authzed-dotnet<PackageId>
+    <Version>0.0.0</Version>
+    <Authors>jkulubya<Authors>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.18.1" />
+    <PackageReference Include="Grpc" Version="2.41.0" />
   </ItemGroup>
 </Project>
